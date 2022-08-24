@@ -26,7 +26,7 @@ import static com.br.thiago.ceep.ui.activity.NotaActivityConstantes.POSICAO_INVA
 
 public class ListaNotasActivity extends AppCompatActivity {
 
-    public static final String TITULO_APPBAR = "Notas";
+    public static final String TITULO_APPBAR = "Notes";
     private ListaNotasAdapter adapter;
 
     @Override
@@ -65,7 +65,7 @@ public class ListaNotasActivity extends AppCompatActivity {
                 altera(notaRecebida, posicaoRecebida);
             } else {
                 Toast.makeText(ListaNotasActivity.this,
-                        "Ocorreu um problema na alteração da nota",
+                        "There was a problem changing the note",
                         Toast.LENGTH_SHORT).show();
             }
         }

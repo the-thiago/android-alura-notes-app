@@ -19,8 +19,8 @@ import static com.br.thiago.ceep.ui.activity.NotaActivityConstantes.POSICAO_INVA
 
 public class FormularioNotaActivity extends AppCompatActivity {
 
-    public static final String TITULO_APPBAR_INSERE = "Insere Nota";
-    public static final String TITULO_APPBAR_ALTERA = "Altera nota";
+    public static final String TITULO_APPBAR_INSERE = "Insert Note";
+    public static final String TITULO_APPBAR_ALTERA = "Change Note";
     private int posicaoRecebida = POSICAO_INVALIDA;
     private EditText titulo;
     private EditText descricao;

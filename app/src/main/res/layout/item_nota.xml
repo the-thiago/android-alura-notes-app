@@ -21,7 +21,7 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Título" />
+            tools:text="Title" />
 
         <TextView
             android:id="@+id/item_nota_descricao"
@@ -36,7 +36,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/item_nota_titulo"
             app:layout_constraintTop_toBottomOf="@id/item_nota_titulo"
-            tools:text="Descrição" />
+            tools:text="Description" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
